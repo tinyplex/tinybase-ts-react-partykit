@@ -1,0 +1,8 @@
+{
+  "name": "tinybase-ts-react-partykit",
+  "main": "src/server/index.ts",
+  "serve": {
+    "path": "public",
+    "build": "src/client/index.tsx"
+  }
+}
