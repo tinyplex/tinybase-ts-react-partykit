@@ -9,7 +9,7 @@
     "partysocket": "^0.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tinybase": "^4.3.6"
+    "tinybase": "^4.3.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.22",
