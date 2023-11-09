@@ -1,20 +1,20 @@
 {
   "name": "tinybase-ts-react-partykit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "dev": "partykit dev",
     "deploy": "partykit deploy"
   },
   "dependencies": {
-    "partysocket": "^0.0.12",
+    "partysocket": "^0.0.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tinybase": "^4.3.21"
+    "tinybase": "^4.4.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.31",
-    "@types/react-dom": "^18.2.14",
-    "partykit": "^0.0.32",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "partykit": "^0.0.34",
     "typescript": "^5.2.2"
   }
 }
