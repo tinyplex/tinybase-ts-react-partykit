@@ -6,15 +6,15 @@
     "deploy": "partykit deploy"
   },
   "dependencies": {
-    "partysocket": "^0.0.17",
+    "partysocket": "^0.0.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tinybase": "^4.5.9"
+    "tinybase": "^4.5.11"
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "partykit": "^0.0.44",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "partykit": "^0.0.56",
     "typescript": "^5.3.3"
   }
 }
