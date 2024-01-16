@@ -9,12 +9,12 @@
     "partysocket": "^0.0.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tinybase": "^4.6.1"
+    "tinybase": "^4.6.2"
   },
   "devDependencies": {
-    "@types/react": "^18.2.47",
+    "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
-    "partykit": "^0.0.66",
+    "partykit": "^0.0.72",
     "typescript": "^5.3.3"
   }
 }
