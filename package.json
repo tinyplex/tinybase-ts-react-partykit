@@ -7,14 +7,14 @@
   },
   "dependencies": {
     "partysocket": "^1.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "tinybase": "^4.8.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tinybase": "^4.8.11"
   },
   "devDependencies": {
-    "@types/react": "^18.2.74",
-    "@types/react-dom": "^18.2.24",
-    "partykit": "^0.0.103",
-    "typescript": "^5.4.4"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "partykit": "^0.0.105",
+    "typescript": "^5.4.5"
   }
 }
