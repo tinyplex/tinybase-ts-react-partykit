@@ -1,17 +1,17 @@
 import React, { StrictMode } from 'react';
 import PartySocket from 'partysocket';
 import { createStore } from 'tinybase';
+import { createPartyKitPersister } from 'tinybase/persisters/persister-partykit-client';
 import {
   Provider,
   useCreatePersister,
   useCreateStore,
-} from 'tinybase/debug/ui-react';
+} from 'tinybase/ui-react';
 import {
   SortedTableInHtmlTable,
-  StoreInspector,
   ValuesInHtmlTable,
-} from 'tinybase/debug/ui-react-dom';
-import { createPartyKitPersister } from 'tinybase/persisters/persister-partykit-client';
+} from 'tinybase/ui-react-dom';
+import { Inspector } from 'tinybase/ui-react-inspector';
 import { Buttons } from './Buttons';
 import { useRoomId } from './hooks';
 import { Share } from './Share';
@@ -82,7 +82,7 @@ export const App = () => {
             paginator={true}
           />
         </div>
-        <StoreInspector />
+        <Inspector />
       </Provider>
     </StrictMode>
   );

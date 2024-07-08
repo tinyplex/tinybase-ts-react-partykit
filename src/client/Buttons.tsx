@@ -1,9 +1,6 @@
 import React from 'react';
-import { ValueOrUndefined } from 'tinybase/debug';
-import {
-  useAddRowCallback,
-  useSetValueCallback,
-} from 'tinybase/debug/ui-react';
+import { ValueOrUndefined } from 'tinybase';
+import { useAddRowCallback, useSetValueCallback } from 'tinybase/ui-react';
 
 // Convenience function for generating a random integer
 const getRandom = (max = 100) => Math.floor(Math.random() * max);
