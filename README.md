@@ -8,7 +8,7 @@ TypeScript, React, and PartyKit.
 1. Make a copy of this template into a new directory:
 
 ```sh
-npx degit tinyplex/tinybase-ts-react-partykit my-tinybase-app
+npx tiged tinyplex/tinybase-ts-react-partykit my-tinybase-app
 ```
 
 2. Go into the directory:
