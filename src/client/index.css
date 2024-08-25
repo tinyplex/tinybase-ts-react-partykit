@@ -5,24 +5,6 @@ body {
   user-select: none;
 }
 
-#logo {
-  display: block;
-  margin: 2rem auto;
-  width: 6rem;
-}
-
-h1 {
-  text-align: center;
-  font-weight: 800;
-}
-
-h2 {
-  text-align: center;
-  font-weight: 800;
-  font-size: 1.3rem;
-  margin: 1rem 0 0;
-}
-
 #app {
   max-width: 40rem;
   margin: 2rem auto;
@@ -33,21 +15,24 @@ h2 {
   row-gap: 1rem;
 }
 
-#share a,
-#share span {
-  background: #222;
-  border-radius: 1rem;
-  border: 1px solid #666;
-  color: #fff;
-  display: block;
-  font-family: inherit;
-  font-size: 0.8rem;
-  font-weight: 800;
-  margin: 0rem auto;
-  padding: 0.5rem 1rem;
+h1 {
+  font-weight: 600;
+  img {
+    margin-right: 1rem;
+    height: 2.5rem;
+    vertical-align: text-bottom;
+  }
+}
+
+h2 {
   text-align: center;
-  text-decoration: none;
-  width: 8rem;
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin: 1rem 0 0;
+}
+
+a {
+  color: unset;
 }
 
 #buttons {
@@ -58,7 +43,7 @@ h2 {
 
 #buttons button {
   border: 1px solid #666;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   padding: 0.5rem 1rem;
   background: #222;
   color: #fff;
@@ -80,6 +65,7 @@ table {
   table-layout: fixed;
   width: 100%;
   margin-bottom: 2rem;
+  caption-side: bottom;
 }
 table caption {
   text-align: left;
@@ -116,8 +102,8 @@ table.sortedTable thead th {
   #app {
     grid-template-columns: 1fr 1fr;
   }
-  #buttons,
-  #share {
+  header,
+  #buttons {
     grid-column: span 2;
   }
 }

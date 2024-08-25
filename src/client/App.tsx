@@ -57,6 +57,12 @@ export const App = () => {
   return (
     <StrictMode>
       <Provider store={store}>
+        <header>
+          <h1>
+            <img src='/favicon.svg' />
+            TinyBase & PartyKit
+          </h1>
+        </header>
         <Share roomId={roomId} createRoomId={createRoomId} />
         <Buttons />
         <div>
@@ -64,14 +70,6 @@ export const App = () => {
           <ValuesInHtmlTable />
         </div>
         <div>
-          <h2>Species Table</h2>
-          <SortedTableInHtmlTable
-            tableId='species'
-            cellId='price'
-            descending={true}
-            sortOnClick={true}
-            className='sortedTable'
-          />
           <h2>Pets Table</h2>
           <SortedTableInHtmlTable
             tableId='pets'
