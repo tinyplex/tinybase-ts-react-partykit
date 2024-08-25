@@ -3,6 +3,8 @@
 This is a template for a simple [TinyBase](https://tinybase.org/) app, using
 TypeScript, React, and PartyKit.
 
+<img width="847" alt="image" src="https://github.com/user-attachments/assets/56a959b0-838d-45e9-95bd-3546a6c0cf71">
+
 ## Instructions
 
 1. Make a copy of this template into a new directory:
@@ -30,8 +32,6 @@ npm run dev
 ```
 
 5. Go the URL shown and enjoy!
-
-![](https://tinybase.org/vite-tinybase-2.png)
 
 ## Other templates
 
